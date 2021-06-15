@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-image: url('ocean.webp');
+  background-repeat: repeat-y;
+  background-size: cover;
+
+}
+
+.container{
+    width: 250px;
+    height: 100px;
+    background-color:brown;
+    /* position: fixed;
+    top: 40%;
+    left: 40%; */
+margin-left: 550px;
+margin-top: 200px;
+position: relative;
+
+}
+
+.clock{
+  background-color: rgb(236, 26, 26);
+  width: 85%;
+  height: 80%;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 10px solid #222;
+  position: absolute;
+  bottom: 10px;
+
+}
+
+h1{
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-top:20px;
+}
+
+
+
+/* flexible of style */
+@media(max-width:990px)
+{
+
+
+  .container{
+    margin-left: 300px;
+  }
+}
+@media(max-width:790px)
+{
+
+
+  .container{
+    margin-left: 200px;
+  }
+}
+
+@media(max-width:650px)
+{
+  .container{
+    margin-left: 130px;
+  }
+}
+
+@media(max-width:550px)
+{
+  .container{
+    margin-left: 100px;
+  }
+}
+  @media(max-width:480px)
+{
+  .container{
+    margin-left: 70px;
+  }
+}
+  @media(max-width:400px)
+  {
+    .container{
+      margin-left: 30px;
+    }
+  }
+    @media(max-width:350px)
+    {
+      .container{
+        margin-left: 5px;
+      }
+    }
